@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Nickainley-Normal';
+  src: local('Nickainley-Normal'), url(./fonts/Nickainley-Normal.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Tangerine-Bold.ttf';
+  src: local('Tangerine-Bold'), url(./fonts/Tangerine-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Tangerine-Regular.ttf';
+  src: local('Tangerine-Regular'), url(./fonts/Tangerine-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Vacations Brush.ttf';
+  src: local('Vacations Brush.ttf'), url(./fonts/Vacations Brush.ttf)
+}
