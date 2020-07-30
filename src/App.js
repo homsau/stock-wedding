@@ -8,7 +8,7 @@ import about_us_banner from './images/about_us_banner.jpg';
 // OUR PICS
 import about_us_green from './images/about_us_green.jpg';
 // import james_headshot from './images/james_headshot.jpg';
-import becky_headshot from './images/becky_headshot.jpg';
+// import becky_headshot from './images/becky_headshot.jpg';
 // FUR BABIES
 import evey from './images/evey.jpg';
 import oliver from './images/oliver.jpg';
@@ -25,7 +25,7 @@ import surprise_party from './images/surprise_party.jpg'; // front pic
 import birthday_flowers from './images/birthday_flowers.jpg'; // front pic
 import vday from './images/vday.jpg'; // front pic
 import becky_wine from './images/becky_wine.gif';
-import becky_gif from './images/becky_gif.gif';
+// import becky_gif from './images/becky_gif.gif';
 import james_gif from './images/james_gif.gif';
 import engaged from './images/engaged.jpg'; // front pic
 
