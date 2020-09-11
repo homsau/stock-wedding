@@ -118,13 +118,15 @@ class App extends React.Component {
               </div>
             </div>
             <div style={{paddingTop: '1.5rem'}}>
-              <h3>Venue Location:</h3>
-              <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>10695 Bell Road,</p>
-              <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Duluth, GA, 30097</p>
+              <h3>Wedding Venue</h3>
+              <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Cowart House</p>
+              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>10695 Bell Road,</p>
+              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>Duluth, GA, 30097</p>
             </div>
-            <div style={{paddingTop: '1.5rem'}}>
-              <h3>Hyatt Place:</h3>
-              <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Info coming soon</p>
+            <div style={{paddingTop: '2.5rem'}}>
+              <h3>Accomodations</h3>
+              <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Hyatt Place</p>
+              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>Info coming soon</p>
               {/* <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>11505 Medlock Bridge Rd,</p>
               <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Johns Creek, GA 30097</p> */}
             </div>
@@ -277,7 +279,7 @@ class App extends React.Component {
                       <img className="timeline__img" src={amicalola} alt="..." />
                       <h3 className="timeline__content-title">Birthday Hiking Adventure</h3>
                       <p className="timeline__content-desc"><strong>@ Amicalola Falls</strong></p>
-                      <p className="timeline__content-desc">We hiked to the top of a waterfall and wwatched the Lunar Eclipse of a Super Blood Moon that night.</p>
+                      <p className="timeline__content-desc">We hiked to the top of a waterfall and watched the Lunar Eclipse of a Super Blood Moon that night.</p>
                     </div>
                   </div>
                   <div className="timeline-item" data-text="February&nbsp;14, 2019" data-short-text="Feb 14, 2019">
