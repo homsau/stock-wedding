@@ -39,7 +39,6 @@ import Countdown from './components/Countdown.js';
 import { Button, Card, Col, Row, Container } from 'react-bootstrap';
 import VerticallyCenteredModal from './components/VerticallyCenteredModal.js';
 import RSVPVerticallyCenteredModal from './components/RSVPVerticallyCenteredModal.js';
-import Accomodations from './components/Accomodations.js';
 // import RSVP from './components/RSVP.js';
 // import TestForm from './components/TestForm.js';
 // import './App.css';
@@ -126,23 +125,10 @@ class App extends React.Component {
             </div>
             <div style={{paddingTop: '2.5rem'}}>
               <h3>Accomodations</h3>
-              
-              {/* <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Hyatt Place</p>
-              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>Info coming soon</p> */}
+              <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Hyatt Place</p>
+              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>Info coming soon</p>
               {/* <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>11505 Medlock Bridge Rd,</p>
               <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Johns Creek, GA 30097</p> */}
-              <div>
-                <Button style={{marginTop: '1rem'}} variant="primary" onClick={() => this.setState({AccomodationsModalShow: true})} className='main_button align-self-center'>
-                  <div>
-                    Hotel Info
-                  </div>
-                </Button>
-          ​
-                <Accomodations
-                  show={this.state.AccomodationsModalShow}
-                  onHide={() => this.setState({AccomodationsModalShow: false})}
-                />
-              </div>
             </div>
           </div>
         </div>
