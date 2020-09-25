@@ -125,10 +125,14 @@ class App extends React.Component {
             </div>
             <div style={{paddingTop: '2.5rem'}}>
               <h3>Accomodations</h3>
-              <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Hyatt Place</p>
-              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>Info coming soon</p>
+              {/* <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Hyatt Place</p> */}
               {/* <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>11505 Medlock Bridge Rd,</p>
               <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Johns Creek, GA 30097</p> */}
+              <Button variant="primary" target="_blank" href="https://www.hyatt.com/en-US/hotel/georgia/hyatt-place-atlanta-duluth-johns-creek/atlzj?corp_id=G-CUCO" className='main_button align-self-center'>
+                <div>
+                  Hyatt Place
+                </div>
+              </Button>
             </div>
           </div>
         </div>

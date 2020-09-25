@@ -1,6 +1,6 @@
 import React from 'react';
 import { Modal, Button, Card, Row, Container, Col } from 'react-bootstrap';
-// import amazon from './../images/amazon.png'
+import amazon from './../images/amazon.png'
 import bed_bath_beyond from './../images/bed_bath_beyond.png';
 import dillards from './../images/dillards.png';
 // import lowes from './../images/lowes.png';
@@ -22,14 +22,7 @@ function VerticallyCenteredModal(props) {
         <Modal.Body>
         <div className='container-fluid d-flex py-4 justify-content-around align-items-center'>
           <Container>
-            <Row className="justify-content-md-center">
-              {/* <Col xs={6} md={3}>
-                <a target='_blank' rel='noopener noreferrer' href='www.jamesandbecks.us/#'>
-                  <Card>
-                    <Card.Img variant="top" src={amazon} />
-                  </Card>
-                </a>
-              </Col> */}
+          <Row className="justify-content-md-center registry-modal">
               <Col xs={12} md={6}>
                 <a target='_blank' rel='noopener noreferrer' href='https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/549077696?eventType=Wedding'>
                   <Card>
@@ -44,13 +37,13 @@ function VerticallyCenteredModal(props) {
                   </Card>
                 </a>
               </Col>
-              {/* <Col xs={6} md={3}>
-                <a target='_blank' rel='noopener noreferrer' href='www.jamesandbecks.us/#'>
+              <Col className="justify-content-center" xs={12} md={6}>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.amazon.com/wedding/share/jamesandbecks'>
                   <Card>
-                    <Card.Img variant="top" src={lowes} />
+                    <Card.Img variant="top" src={amazon} />
                   </Card>
                 </a>
-              </Col> */}
+              </Col>
             </Row>
           </Container>
         </div>
