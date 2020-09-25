@@ -1,6 +1,9 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "jamesandbecks",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x.x"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -16,7 +19,7 @@
     "react-bootstrap": "^1.0.1",
     "react-card-flip": "^1.0.10",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",

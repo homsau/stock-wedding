@@ -86,7 +86,11 @@ h3 {
   font-size: 2rem; }
 
 .registry-icons .modal-body .card {
-  border: none; }
+  border: none; 
+}
+.modal-body img.map {
+  width: 100%;
+}
 
 .section {
   padding-top: 40px;

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ce32e954.chunk.css",
-    "main.js": "/static/js/main.0ef3ced7.chunk.js",
-    "main.js.map": "/static/js/main.0ef3ced7.chunk.js.map",
+    "main.js": "/static/js/main.c4fe4c3c.chunk.js",
+    "main.js.map": "/static/js/main.c4fe4c3c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
     "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
-    "static/js/2.12396ce0.chunk.js": "/static/js/2.12396ce0.chunk.js",
-    "static/js/2.12396ce0.chunk.js.map": "/static/js/2.12396ce0.chunk.js.map",
+    "static/js/2.1373e1c0.chunk.js": "/static/js/2.1373e1c0.chunk.js",
+    "static/js/2.1373e1c0.chunk.js.map": "/static/js/2.1373e1c0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.092251ff475fa98508a2a3d166467414.js": "/precache-manifest.092251ff475fa98508a2a3d166467414.js",
+    "precache-manifest.a620b68203ac487cbdd122ad994637fc.js": "/precache-manifest.a620b68203ac487cbdd122ad994637fc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ce32e954.chunk.css.map": "/static/css/main.ce32e954.chunk.css.map",
-    "static/js/2.12396ce0.chunk.js.LICENSE.txt": "/static/js/2.12396ce0.chunk.js.LICENSE.txt",
+    "static/js/2.1373e1c0.chunk.js.LICENSE.txt": "/static/js/2.1373e1c0.chunk.js.LICENSE.txt",
     "static/media/Nickainley-Normal.ttf": "/static/media/Nickainley-Normal.f85c53fa.ttf",
     "static/media/Tangerine-Bold.ttf": "/static/media/Tangerine-Bold.9afc148d.ttf",
     "static/media/Tangerine-Regular.ttf": "/static/media/Tangerine-Regular.c848a4eb.ttf",
@@ -34,6 +34,7 @@
     "static/media/gt_image.jpg": "/static/media/gt_image.2a55dbda.jpg",
     "static/media/hdr_home.jpg": "/static/media/hdr_home.554a60e2.jpg",
     "static/media/james_gif.gif": "/static/media/james_gif.37f031f1.gif",
+    "static/media/map.jpg": "/static/media/map.36cfe56a.jpg",
     "static/media/moulin_rouge.jpg": "/static/media/moulin_rouge.46724ef6.jpg",
     "static/media/oliver.jpg": "/static/media/oliver.41537484.jpg",
     "static/media/simon.jpg": "/static/media/simon.bcd98589.jpg",
@@ -42,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.09b85ec0.js",
-    "static/js/2.12396ce0.chunk.js",
+    "static/js/2.1373e1c0.chunk.js",
     "static/css/main.ce32e954.chunk.css",
-    "static/js/main.0ef3ced7.chunk.js"
+    "static/js/main.c4fe4c3c.chunk.js"
   ]
 }
