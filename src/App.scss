@@ -259,6 +259,12 @@ img#about_us {
   h3 {
     font-size: 2rem;
   }
+  .section#countdown {
+    padding-bottom: 0;
+  }
+  .section#countdown .Countdown {
+    display: none;
+  }
 }
 
 
