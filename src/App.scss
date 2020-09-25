@@ -47,10 +47,13 @@ h3 {font-size: 32px;}
   transition: all 300ms ease;
   -webkit-transition: all 300ms ease;
 }
-.btn-primary.hover, .btn-primary:hover {
-  background-color: #EE7C18;
-  border: #560410 2px solid;
-  transition: all 300ms ease;
+.btn-primary.hover, .btn-primary:hover,
+.btn-primary.active, .btn-primary:active,
+.btn-primary.focus, .btn-primary:focus {
+  background-color: #EE7C18 !important;
+  border: #560410 2px solid !important;
+  transition: all 300ms ease !important;
+  box-shadow: 0 0 0 0.2rem rgba(238,124,24,.5) !important;
   -webkit-transition: all 300ms ease;
 }
 .btn-primary.focus, .btn-primary:focus {
@@ -266,7 +269,10 @@ img#about_us {
     display: none;
   }
 }
-
+.modal-reserve-button {
+  text-align: center;
+  padding-top: 40px;
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One');

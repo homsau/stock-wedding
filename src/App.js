@@ -129,11 +129,11 @@ class App extends React.Component {
               {/* <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Hyatt Place</p> */}
               {/* <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>11505 Medlock Bridge Rd,</p>
               <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Johns Creek, GA 30097</p> */}
-              <Button variant="primary" target="_blank" href="https://www.hyatt.com/en-US/hotel/georgia/hyatt-place-atlanta-duluth-johns-creek/atlzj?corp_id=G-CUCO" className='main_button align-self-center'>
+              {/* <Button variant="primary" target="_blank" href="https://www.hyatt.com/en-US/hotel/georgia/hyatt-place-atlanta-duluth-johns-creek/atlzj?corp_id=G-CUCO" className='main_button align-self-center'>
                 <div>
                   Hyatt Place
                 </div>
-              </Button>
+              </Button> */}
               <div>
                 <Button style={{marginTop: '1rem'}} variant="primary" onClick={() => this.setState({AccomodationsModalShow: true})} className='main_button align-self-center'>
                   <div>
