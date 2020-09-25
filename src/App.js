@@ -39,6 +39,7 @@ import Countdown from './components/Countdown.js';
 import { Button, Card, Col, Row, Container } from 'react-bootstrap';
 import VerticallyCenteredModal from './components/VerticallyCenteredModal.js';
 import RSVPVerticallyCenteredModal from './components/RSVPVerticallyCenteredModal.js';
+import Accomodations from './components/Accomodations.js';
 // import RSVP from './components/RSVP.js';
 // import TestForm from './components/TestForm.js';
 // import './App.css';
@@ -133,6 +134,18 @@ class App extends React.Component {
                   Hyatt Place
                 </div>
               </Button>
+              <div>
+                <Button style={{marginTop: '1rem'}} variant="primary" onClick={() => this.setState({AccomodationsModalShow: true})} className='main_button align-self-center'>
+                  <div>
+                    Hotel Info
+                  </div>
+                </Button>
+          ​
+                <Accomodations
+                  show={this.state.AccomodationsModalShow}
+                  onHide={() => this.setState({AccomodationsModalShow: false})}
+                />
+              </div>
             </div>
           </div>
         </div>
