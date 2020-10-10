@@ -83,9 +83,11 @@ class App extends React.Component {
         <div id='countdown' className="section">
           <div className='hero-menu'>
             <div className='container-fluid countdown-container'>
-              <h3 className='title'>Countdown to</h3>
+              {/* <h3 className='title'>Countdown to</h3>
               <h2 className='title'>October 10th, 2020</h2>
-              <Countdown />
+              <Countdown /> */}
+              <h3 className='title'>It's TODAY!</h3>
+              <h2 className='title'>October 10th, 2020</h2>
             </div>
           </div>
         </div>
@@ -117,6 +119,10 @@ class App extends React.Component {
                   onHide={() => this.setState({modalShow: false})}
                 />
               </div>
+            </div>
+            <div style={{paddingTop: '1.5rem'}}>
+              <h3>Watch Online at 5pm EST</h3>
+              <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}><a href="https://zoom.us/my/jamesandbecks" target="_blank">https://zoom.us/my/jamesandbecks</a></p>
             </div>
             <div style={{paddingTop: '1.5rem'}}>
               <h3>Wedding Venue</h3>
