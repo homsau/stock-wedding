@@ -1,5 +1,5 @@
-Wedding Website
+# Wedding Website
 
-made with React and JavaScript
+### made with React and JavaScript
 
 https://jamesandbecks.herokuapp.com/
