@@ -1,4 +1,4 @@
-###Wedding Website
+Wedding Website
 
 made with React and JavaScript
 
