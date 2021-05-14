@@ -179,6 +179,9 @@ img#about_us {
 .bio-card .card {
   width: 80%;
   margin: auto;
+  & p {
+    text-align: left;
+  }
 }
 .bio-card .card .card-title {
   padding-top: 1.25rem;
