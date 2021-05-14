@@ -83,8 +83,8 @@ class App extends React.Component {
         <div id='countdown' className="section">
           <div className='hero-menu'>
             <div className='container-fluid countdown-container'>
-              <h3 className='title'>Countdown to</h3>
-              <h2 className='title'>October 10th, 2020</h2>
+              <h3 className='title'>Countdown to: Anniversary #1</h3>
+              <h2 className='title'>October 10th, 2021</h2>
               <Countdown />
             </div>
           </div>
@@ -120,9 +120,10 @@ class App extends React.Component {
             </div>
             <div style={{paddingTop: '1.5rem'}}>
               <h3>Wedding Venue</h3>
-              <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Cowart House</p>
-              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>10695 Bell Road,</p>
-              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>Duluth, GA, 30097</p>
+              <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Church on the Hill</p>
+              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>123 Peachtree Road,</p>
+              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>Atlanta, GA, 30314</p>
+              <p style={{fontSize: '1.25rem', marginBottom: '0'}}>at 5pm</p>
             </div>
             <div style={{paddingTop: '2.5rem'}}>
               <h3>Accomodations</h3>
@@ -167,13 +168,10 @@ class App extends React.Component {
                     <Card.Title>Rebecca Lynn Cunningham</Card.Title>
                     <Card.Body>
                       <Card.Text>
-                        fiancee: &#123;
-                        occupation: Web Developer;
-                        age: 27; &#125;
-                        {/* <p>birthday: June 10;</p>
-                        <p>jokes: puns;</p>
-                        <p>strength: love;</p>
-                        <p>&#125;</p>  */}
+                        <strong>fiancee:</strong> &#123;<br/>
+                        &nbsp;&nbsp;&nbsp;occupation: Web Developer;<br/>
+                        &nbsp;&nbsp;&nbsp;age: 27;<br/>
+                        &#125;
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -185,13 +183,10 @@ class App extends React.Component {
                     <Card.Title>James Powell Cowart</Card.Title>
                     <Card.Body>
                       <Card.Text>
-                        fiance: &#123;
-                        occupation: Web Developer;
-                        age: 30; &#125;
-                          {/* <p>birthday: June 10;</p>
-                          <p>jokes: puns;</p>
-                          <p>strength: love;</p>
-                          <p>&#125;</p>  */}
+                        <strong>fiance:</strong> &#123;<br/>
+                        &nbsp;&nbsp;&nbsp;occupation: Web Developer;<br/>
+                        &nbsp;&nbsp;&nbsp;age: 30;<br/>
+                        &#125;
                       </Card.Text>
                     </Card.Body>
                   </Card>

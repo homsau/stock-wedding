@@ -1,6 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ce32e954.chunk.css",
+<<<<<<< HEAD
     "main.js": "/static/js/main.c4fe4c3c.chunk.js",
     "main.js.map": "/static/js/main.c4fe4c3c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
@@ -12,6 +13,19 @@
     "service-worker.js": "/service-worker.js",
     "static/css/main.ce32e954.chunk.css.map": "/static/css/main.ce32e954.chunk.css.map",
     "static/js/2.1373e1c0.chunk.js.LICENSE.txt": "/static/js/2.1373e1c0.chunk.js.LICENSE.txt",
+=======
+    "main.js": "/static/js/main.8c42d7f7.chunk.js",
+    "main.js.map": "/static/js/main.8c42d7f7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.12396ce0.chunk.js": "/static/js/2.12396ce0.chunk.js",
+    "static/js/2.12396ce0.chunk.js.map": "/static/js/2.12396ce0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.02773bb684597e57adc4b2dcd9c43634.js": "/precache-manifest.02773bb684597e57adc4b2dcd9c43634.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ce32e954.chunk.css.map": "/static/css/main.ce32e954.chunk.css.map",
+    "static/js/2.12396ce0.chunk.js.LICENSE.txt": "/static/js/2.12396ce0.chunk.js.LICENSE.txt",
+>>>>>>> 9dae8d4bdcd2ba995d38afbc5ab04243e046a9d9
     "static/media/Nickainley-Normal.ttf": "/static/media/Nickainley-Normal.f85c53fa.ttf",
     "static/media/Tangerine-Bold.ttf": "/static/media/Tangerine-Bold.9afc148d.ttf",
     "static/media/Tangerine-Regular.ttf": "/static/media/Tangerine-Regular.c848a4eb.ttf",
@@ -34,7 +48,10 @@
     "static/media/gt_image.jpg": "/static/media/gt_image.2a55dbda.jpg",
     "static/media/hdr_home.jpg": "/static/media/hdr_home.554a60e2.jpg",
     "static/media/james_gif.gif": "/static/media/james_gif.37f031f1.gif",
+<<<<<<< HEAD
     "static/media/map.jpg": "/static/media/map.36cfe56a.jpg",
+=======
+>>>>>>> 9dae8d4bdcd2ba995d38afbc5ab04243e046a9d9
     "static/media/moulin_rouge.jpg": "/static/media/moulin_rouge.46724ef6.jpg",
     "static/media/oliver.jpg": "/static/media/oliver.41537484.jpg",
     "static/media/simon.jpg": "/static/media/simon.bcd98589.jpg",
@@ -43,8 +60,14 @@
   },
   "entrypoints": [
     "static/js/runtime-main.09b85ec0.js",
+<<<<<<< HEAD
     "static/js/2.1373e1c0.chunk.js",
     "static/css/main.ce32e954.chunk.css",
     "static/js/main.c4fe4c3c.chunk.js"
+=======
+    "static/js/2.12396ce0.chunk.js",
+    "static/css/main.ce32e954.chunk.css",
+    "static/js/main.8c42d7f7.chunk.js"
+>>>>>>> 9dae8d4bdcd2ba995d38afbc5ab04243e046a9d9
   ]
 }
