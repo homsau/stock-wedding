@@ -3,7 +3,8 @@ import { Modal, Button, Card, Row, Container, Col } from 'react-bootstrap';
 // import amazon from './../images/amazon.png'
 import bed_bath_beyond from './../images/bed_bath_beyond.png';
 import dillards from './../images/dillards.png';
-// import lowes from './../images/lowes.png';
+import amazon from './../images/amazon.png';
+import home_depot from './../images/home_depot.png';
 
 function VerticallyCenteredModal(props) {
     return (
@@ -22,7 +23,7 @@ function VerticallyCenteredModal(props) {
         <Modal.Body>
         <div className='container-fluid d-flex py-4 justify-content-around align-items-center'>
           <Container>
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-md-center registry-modal">
               {/* <Col xs={6} md={3}>
                 <a target='_blank' rel='noopener noreferrer' href='www.jamesandbecks.us/#'>
                   <Card>
@@ -41,6 +42,13 @@ function VerticallyCenteredModal(props) {
                 <a target='_blank' rel='noopener noreferrer' href='https://www.dillards.com/registry/RebeccaCunningham-JamesCowart/132821638'>
                   <Card>
                     <Card.Img variant="top" src={dillards} />
+                  </Card>
+                </a>
+              </Col>
+              <Col className="justify-content-center" xs={12} md={6}>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.amazon.com/wedding/share/jamesandbecks'>
+                  <Card>
+                    <Card.Img variant="top" src={amazon} />
                   </Card>
                 </a>
               </Col>

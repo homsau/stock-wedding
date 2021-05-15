@@ -22,6 +22,13 @@ function Accomodations(props) {
               <Col xs={12} md={12}>
                 <img className="map" style={{width: '100%'}} src={map} alt="..." />
               </Col>
+              <Col className="modal-reserve-button" xs={12} md={12}>
+                <Button variant="primary" target="_blank" href="https://www.hyatt.com/en-US/hotel/georgia/hyatt-place-atlanta-duluth-johns-creek/atlzj?corp_id=G-CUCO" className='main_button align-self-center'>
+                  <div>
+                    Reserve a room!
+                  </div>
+                </Button>
+              </Col>
               <Col xs={12} md={12}>
                 <p style={{paddingTop: '1.5rem'}}><strong><a href="tel:770-622-5858">P: 770 622 5858</a></strong></p>
                 <p><strong>Directions from Hartsfield-Jackson Atlanta International Airport:</strong><br />Take I-85 North to Exit 104 (Pleasant Hill Road). Drive West on Pleasant Hill for 4.5 miles to Medlock Bridge Road/Highway 141. Turn Right on Medlock Bridge, and drive three miles. The hotel is on the right.</p>
