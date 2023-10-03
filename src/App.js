@@ -83,8 +83,8 @@ class App extends React.Component {
         <div id='countdown' className="section">
           <div className='hero-menu'>
             <div className='container-fluid countdown-container'>
-              <h3 className='title'>Countdown to: Anniversary #1</h3>
-              <h2 className='title'>October 10th, 2021</h2>
+              <h3 className='title'>Countdown to: Anniversary #3</h3>
+              <h2 className='title'>October 10th, 2023</h2>
               <Countdown />
             </div>
           </div>

@@ -133,7 +133,7 @@ class Countdown extends Component {
 // };
 
 Countdown.defaultProps = {
-  date: new Date('2021, 10, 10')
+  date: new Date('2024, 10, 10')
 };
 
 export default Countdown;
