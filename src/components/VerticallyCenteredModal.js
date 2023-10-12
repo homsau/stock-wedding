@@ -4,7 +4,6 @@ import { Modal, Button, Card, Row, Container, Col } from 'react-bootstrap';
 import bed_bath_beyond from './../images/bed_bath_beyond.png';
 import dillards from './../images/dillards.png';
 import amazon from './../images/amazon.png';
-import home_depot from './../images/home_depot.png';
 
 function VerticallyCenteredModal(props) {
     return (
