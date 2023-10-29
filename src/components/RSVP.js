@@ -167,7 +167,7 @@ export default class RSVP extends React.Component {
                             </Col>
                         </Form.Group> */}
 
-                        <Form.Group as={Row}>
+                        <Form.Group id="rsvp_submit" as={Row}>
                             <Col sm={{ span: 10, offset: 2 }}>
                             <Button type="submit">Submit</Button>
                             </Col>
