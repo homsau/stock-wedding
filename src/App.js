@@ -118,7 +118,7 @@ class App extends React.Component {
           <div id='buttons details' className="section">
             <div>
               <div style={{paddingTop: '2.5rem'}}>
-                <h3>Wedding Venue</h3>
+                <h2>Wedding Venue</h2>
                 <p style={{fontWeight: 'bold', fontSize: '1.25rem', marginBottom: '0'}}>Church on the Hill</p>
                 <p style={{fontSize: '1.25rem', marginBottom: '0'}}>123 Peachtree Road,</p>
                 <p style={{fontSize: '1.25rem', marginBottom: '0'}}>Atlanta, GA, 30314</p>
