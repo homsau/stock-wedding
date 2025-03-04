@@ -72,7 +72,7 @@ class CountdownDay extends Component {
 // };
 
 CountdownDay.defaultProps = {
-  date: new Date('2020, 10, 10')
+  date: new Date('2025, 10, 10')
 };
 
 export default CountdownDay;
