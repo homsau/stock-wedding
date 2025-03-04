@@ -83,7 +83,7 @@ class App extends React.Component {
               <div className='hero-menu'>
                 <div className='container-fluid countdown-container'>
                   {/* <h3 className='title'>Countdown to: Anniversary #4</h3> */}
-                  <h4 className='title'>October&nbsp;10th,&nbsp;2024 &nbsp; &#8226; &nbsp; <CountdownDay /></h4>
+                  <h4 className='title'>October&nbsp;10th,&nbsp;2020 &nbsp; &#8226; &nbsp; <CountdownDay /></h4>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ class App extends React.Component {
             <Menu id='top-menu' className='menu'>
               <ul>
                 <li><AnchorLink href='#details'>Details</AnchorLink></li>
-                <li><AnchorLink href='#about-us'>About Us</AnchorLink></li>
+                <li><AnchorLink href='#about-us'>About&nbsp;Us</AnchorLink></li>
                 <li><AnchorLink href='#pets'>Pets</AnchorLink></li>
                 <li><AnchorLink href='#timeline'>Timeline</AnchorLink></li>
               </ul>
@@ -271,17 +271,17 @@ class App extends React.Component {
                       <img className="timeline__img" src={timeline_bg} alt="..." /> 
                       <img className="timeline__img" src={gt_image} alt="..." /> 
                       <h3 className="timeline__content-title">The Day We Met</h3>
-                      <p className="timeline__content-desc"><strong>@ College</strong></p>
-                      <p className="timeline__content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p className="timeline__content-desc"><strong>@ Georgia Tech</strong></p>
+                      <p className="timeline__content-desc">We met at Orientation and made small talk. We were the last 2 people to leave the building.</p>
                     </div>
                   </div>
-                  <div className="timeline-item" data-text="October&nbsp;27, 2018" data-short-text="Oct 27, 2018">
+                  <div className="timeline-item" data-text="October&nbsp;27, 2018" data-short-text="Sep 5, 2018">
                     <div className="timeline__content">
                       <img className="timeline__img" src={timeline_bg} alt="..." /> 
                       <img className="timeline__img" src={braves} alt="..." />
                       <h3 className="timeline__content-title">Went to the Game</h3>
                       <p className="timeline__content-desc"><strong>@ Braves Stadium</strong></p>
-                      <p className="timeline__content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p className="timeline__content-desc">Saw the ATL Braves play against the Boston RedSox</p>
                     </div>
                   </div>
                   <div className="timeline-item" data-text="December&nbsp;14, 2018" data-short-text="Dec 14, 2018">
@@ -290,7 +290,7 @@ class App extends React.Component {
                       <img className="timeline__img" src={amicalola} alt="..." />
                       <h3 className="timeline__content-title">Hiked a Waterfall</h3>
                       <p className="timeline__content-desc"><strong>@ Amicalola Falls</strong></p>
-                      <p className="timeline__content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p className="timeline__content-desc">We hiked to the top of a waterfall and watched the Lunar Eclipse of a Super Blood Moon that night.</p>
                     </div>
                   </div>
                   <div className="timeline-item" data-text="February&nbsp;14, 2019" data-short-text="Feb 14, 2019">
@@ -299,16 +299,16 @@ class App extends React.Component {
                       <img className="timeline__img" src={moulin_rouge} alt="..." />
                       <h3 className="timeline__content-title">Moulin Rouge on Broadway</h3>
                       <p className="timeline__content-desc"><strong>@ NYC</strong></p>
-                      <p className="timeline__content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p className="timeline__content-desc">Saw Moulin Rouge. It was fantastic!</p>
                     </div>
                   </div>
-                  <div className="timeline-item" data-text="January&nbsp;21, 2019" data-short-text="Jan 21, 2019">
+                  <div className="timeline-item" data-text="October&nbsp;20, 2019" data-short-text="Oct 20, 2019">
                     <div className="timeline__content">
                       <img className="timeline__img" src={timeline_bg} alt="..." /> 
                       <img className="timeline__img" src={sunflower} alt="..." />
                       <h3 className="timeline__content-title">Sunflower Field</h3>
                       <p className="timeline__content-desc"><strong>@ Fausett Farms</strong></p>
-                      <p className="timeline__content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p className="timeline__content-desc">Had a fun photoshoot within the sunflowers!</p>
                     </div>
                   </div>
                   <div className="timeline-item" data-text="February&nbsp;15, 2020" data-short-text="Feb 15, 2020">
@@ -317,7 +317,7 @@ class App extends React.Component {
                       <img className="timeline__img" src={vday} alt="..." />
                       <h3 className="timeline__content-title">Valentine's Day Hike</h3>
                       <p className="timeline__content-desc"><strong>@ Savannah Rapids</strong></p>
-                      <p className="timeline__content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p className="timeline__content-desc">Got "locked in love" at the Lover's Gate</p>
                     </div>
                   </div>
                   <div className="timeline-item" data-text="March&nbsp;14, 2020" data-short-text="Mar 14, 2020">
@@ -326,7 +326,7 @@ class App extends React.Component {
                       <img className="timeline__img" src={engaged} alt="..." />
                       <h3 id="engaged" className="timeline__content-title">GOT ENGAGED!!!<br/>on Pi Day 3.14<br/></h3>
                       <p className="timeline__content-desc"><strong>@ Becky's alma mater</strong></p>
-                      <p className="timeline__content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p className="timeline__content-desc">We went to a beautiful performance of West Side Story at Davidson Fine Arts, Becky's former secondary school. Afterward, we strolled through a courtyard and walked into an empty ampitheatre. James proposed on stage, and we lived happily ever after!</p>
                     </div>
                   </div>
                   <div className="timeline-item" data-text="10&nbsp;10, 2020" data-short-text="10&nbsp;10, 2020">

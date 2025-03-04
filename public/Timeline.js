@@ -40,7 +40,7 @@
                 ")"
             );
             selectors.item.last().addClass(selectors.activeClass);
-          } else if (pos + 120 <= max && pos + 120 >= min) {
+          } else if (pos + 300 <= max && pos + 300 >= min) {
             selectors.id.css(
               "background-image",
               "url(" +
