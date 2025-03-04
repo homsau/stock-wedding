@@ -199,8 +199,8 @@ class App extends React.Component {
                   <h2 style = {{marginTop: '10px'}}>James Cowart</h2>
                 </Col>
                 <div className="about_text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p>We're just two nerds destined for a lifetime of fun! We met by chance at Georgia Tech and grew to love each other</p>
+                  <p>We have lovely families, pets, and we share all of our passions.</p>
                 </div>
               </Row>
             </Container>
